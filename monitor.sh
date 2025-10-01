@@ -3,9 +3,9 @@
 WEBHOOK_URL="https://discord.com/api/webhooks/1420016129673400453/1qrUQp9It-poP1PxwGs16hwNxCnWvHoB_c5sbtE7GfOfzOvezQJttmR1A3La795u4nLV"
 LOG_FILE="./monitor.log"
 
-CPU_THRESHOLD=1
+CPU_THRESHOLD=80
 RAM_THRESHOLD=80
-DISK_THRESHOLD=90
+DISK_THRESHOLD=1
 
 send_alert() {
     local message="$1"
